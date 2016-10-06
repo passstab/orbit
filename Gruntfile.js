@@ -48,7 +48,7 @@ module.exports = function (grunt) {
           overwrite: true,
           icon: 'assets/orbit.icns',
           download: {
-            cache: '.electron-prebuilt'
+            cache: '.electron'
           }
         }
       },
@@ -62,7 +62,7 @@ module.exports = function (grunt) {
           overwrite: true,
           icon: 'assets/orbit.icns',
           download: {
-            cache: '.electron-prebuilt'
+            cache: '.electron'
           }
         }
       }
